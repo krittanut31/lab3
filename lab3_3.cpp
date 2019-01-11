@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-    double x=2;
-    double y=69;
+    double x=6;
+    double y=19;
     double ans = 0;
 
-    while(1/x>=1/y){
+    while(x<=y){
         ans=ans+(1/x);
         x=x+1;
            
     }
-    cout << "555";
-    cout<<ans;
+    
+    cout << ans;
     return 0;
 }
